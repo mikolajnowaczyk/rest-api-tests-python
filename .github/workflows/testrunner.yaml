@@ -57,6 +57,7 @@ jobs:
             ${{ job.status == 'success' && '✅ Python Tests completed successfully' || '❌ Python Tests failed' }} 
             on branch *${{ github.ref_name }}* by *${{ github.actor }}*.
             Details: <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View on GitHub>
+            :cherry_blossom::cherry_blossom::cherry_blossom: <@U08FLR6P1K7> Grzegorz coś się udało albo i nie :cherry_blossom::cherry_blossom::cherry_blossom:
           SLACK_TITLE: "Build Status: ${{ job.status }}"
 
       - name: Send success email
