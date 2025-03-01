@@ -3,4 +3,4 @@ pytest
 pytest-steps
 jsonschema 
 pytest-xdist
-pytest-html
+pytest-html==4.1.1
