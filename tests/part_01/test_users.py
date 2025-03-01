@@ -40,7 +40,7 @@ def test_get_user_list_request():
     emails = [item['email'] for item in user_lists_root_data['data']]
 
     assert len(emails) == 6 
-    assert "michael.lawson@reqres.in" in emails
+    assert "michael.lawson@reqres.inkedin" in emails
     assert "lindsay.ferguson@reqres.in" in emails
     assert "tobias.funke@reqres.in" in emails
     assert "byron.fields@reqres.in" in emails
