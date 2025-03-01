@@ -17,6 +17,7 @@ jobs:
     strategy:
       matrix:
         python-version: [3.11, 3.12, 3.13]
+        test: [1, 2]
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
