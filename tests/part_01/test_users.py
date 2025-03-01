@@ -31,7 +31,7 @@ def test_get_user_list_request():
     user_lists_data_1 = user_lists_root_data['data'][0]
 
     assert (user_lists_data_1['id'] == 7), "User Id verfication failed"
-    assert (user_lists_data_1['email'] == "michael.lawson@reqres.in"), "User Id verfication failed"
+    assert (user_lists_data_1['email'] == "michael.lawson@reqres.ion"), "User Id verfication failed"
     assert (user_lists_data_1['first_name'] == "Michael"), "First Name verfication failed"
     assert (user_lists_data_1['last_name'] == "Lawson"), "Last Name verfication failed"
     assert (user_lists_data_1['avatar'] == "https://reqres.in/img/faces/7-image.jpg"), "Avatar verfication failed"
